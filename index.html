@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tic Tac Toe Game" />
+    <title>Tic Tac Toe</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="start">
+        <h1 id="wel-msg">Welcome to the game! </h1>
+        <div class="btns">
+            <button id="two-player">Play with your friend</button>
+            <button id="comp-player">Play with your computer</button>
+        </div>
+    </div>
+ 
+    <!-- msg for winner -->
+    <div class="msg-container hide">
+      <p id="msgW">Winner</p>
+      <!-- just for button -->
+      <button id="new-btn">New Game</button>
+    </div>
+
+    <!-- msg for tie -->
+    <div class="msg-container-tie hide">
+      <p id="msgT">Tie!</p>
+      <!-- just for button -->
+      <button id="new-btn-tie">New Game</button>
+    </div>
+
+    <main class="main hide">
+      <h1 id="heading">TIC TAC TOE</h1>
+      <!-- gamethe game container starts -->
+      <div class="container">
+        <div class="game">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+      </div>
+
+      <!-- for reset or new game -->
+      <button id="reset-btn">Reset game</button>
+    </main>
+    <div class="footer">
+      <p>Made with ❤️ by <a href="https://github.com/soumitri-2005">@Soumitri Mishra</a></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
